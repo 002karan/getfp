@@ -1,0 +1,143 @@
+body {
+    font-family: "Roboto", sans-serif;
+   
+}
+
+.getData
+{
+    display: flex;
+    /* width: 30rem; */
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+}
+#page1-div
+{
+  border: 2px sold black;
+}
+
+
+#subjectname
+{
+display: flex;
+width: 350px;
+position: relative;
+right: 110px;
+}
+.downloadpdf
+{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#downloadBtn
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* From Uiverse.io by elisapi */ 
+.card {
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(65, 29, 131);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  border-radius: 30px;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128c7e;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.socialContainer
+{
+  fill: white;
+}
+
+@media (min-width: 300px) and (max-width: 1023px) {
+  .page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+  }
+ 
+  #downloadBtn
+  {
+    font-size: 2rem;
+    border-radius: 20px;
+    width: 10em;
+    height: 2em;
+
+  }
+}
